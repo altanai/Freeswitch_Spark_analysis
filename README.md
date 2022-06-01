@@ -27,7 +27,11 @@ check
     ......
 
 
+## Prereq 
 
+    pip install pyspark
+    pip install matplotlib
+    pip install numpy
 
 ## Change the java JDK form terminal from anaconda 
 
