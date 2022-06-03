@@ -1,0 +1,165 @@
+C:\Users\abisht\.jdks\openjdk-18.0.1\bin\java.exe "-javaagent:C:\Users\abisht\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\lib\idea_rt.jar=57444:C:\Users\abisht\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\abisht\BigData\FreeswitchLog_warning_severity_mapreduce\out\production\FreeswitchLog_warning_severity_mapreduce;C:\Users\abisht\commonlib\re2j-1.1.jar;C:\Users\abisht\commonlib\asm-5.0.4.jar;C:\Users\abisht\commonlib\avro-1.7.7.jar;C:\Users\abisht\commonlib\gson-2.2.4.jar;C:\Users\abisht\commonlib\jsch-0.1.54.jar;C:\Users\abisht\commonlib\jsp-api-2.1.jar;C:\Users\abisht\commonlib\jettison-1.1.jar;C:\Users\abisht\commonlib\jsr305-3.0.0.jar;C:\Users\abisht\commonlib\log4j-1.2.17.jar;C:\Users\abisht\commonlib\dnsjava-2.1.7.jar;C:\Users\abisht\commonlib\paranamer-2.3.jar;C:\Users\abisht\commonlib\commons-io-2.5.jar;C:\Users\abisht\commonlib\guava-27.0-jre.jar;C:\Users\abisht\commonlib\json-smart-2.3.jar;C:\Users\abisht\commonlib\commons-cli-1.2.jar;C:\Users\abisht\commonlib\commons-net-3.6.jar;C:\Users\abisht\commonlib\httpcore-4.4.10.jar;C:\Users\abisht\commonlib\jaxb-api-2.2.11.jar;C:\Users\abisht\commonlib\kerb-core-1.0.1.jar;C:\Users\abisht\commonlib\kerb-util-1.0.1.jar;C:\Users\abisht\commonlib\kerby-xdr-1.0.1.jar;C:\Users\abisht\commonlib\stax2-api-3.1.4.jar;C:\Users\abisht\commonlib\commons-text-1.4.jar;C:\Users\abisht\commonlib\httpclient-4.5.6.jar;C:\Users\abisht\commonlib\jersey-core-1.19.jar;C:\Users\abisht\commonlib\jersey-json-1.19.jar;C:\Users\abisht\commonlib\jsr311-api-1.1.1.jar;C:\Users\abisht\commonlib\kerb-admin-1.0.1.jar;C:\Users\abisht\commonlib\kerby-asn1-1.0.1.jar;C:\Users\abisht\commonlib\kerby-pkix-1.0.1.jar;C:\Users\abisht\commonlib\kerby-util-1.0.1.jar;C:\Users\abisht\commonlib\slf4j-api-1.7.25.jar;C:\Users\abisht\commonlib\zookeeper-3.4.13.jar;C:\Users\abisht\commonlib\commons-lang3-3.7.jar;C:\Users\abisht\commonlib\failureaccess-1.0.jar;C:\Users\abisht\commonlib\hadoop-auth-3.2.1.jar;C:\Users\abisht\commonlib\jackson-xc-1.9.13.jar;C:\Users\abisht\commonlib\jaxb-impl-2.2.3-1.jar;C:\Users\abisht\commonlib\kerb-client-1.0.1.jar;C:\Users\abisht\commonlib\kerb-common-1.0.1.jar;C:\Users\abisht\commonlib\kerb-crypto-1.0.1.jar;C:\Users\abisht\commonlib\kerb-server-1.0.1.jar;C:\Users\abisht\commonlib\snappy-java-1.0.5.jar;C:\Users\abisht\commonlib\checker-qual-2.5.2.jar;C:\Users\abisht\commonlib\commons-codec-1.11.jar;C:\Users\abisht\commonlib\jackson-core-2.9.8.jar;C:\Users\abisht\commonlib\jersey-server-1.19.jar;C:\Users\abisht\commonlib\kerby-config-1.0.1.jar;C:\Users\abisht\commonlib\metrics-core-3.2.4.jar;C:\Users\abisht\commonlib\netty-3.10.5.Final.jar;C:\Users\abisht\commonlib\accessors-smart-1.2.jar;C:\Users\abisht\commonlib\commons-math3-3.1.1.jar;C:\Users\abisht\commonlib\jersey-servlet-1.19.jar;C:\Users\abisht\commonlib\jul-to-slf4j-1.7.25.jar;C:\Users\abisht\commonlib\kerb-identity-1.0.1.jar;C:\Users\abisht\commonlib\protobuf-java-2.5.0.jar;C:\Users\abisht\commonlib\woodstox-core-5.0.3.jar;C:\Users\abisht\commonlib\jackson-jaxrs-1.9.13.jar;C:\Users\abisht\commonlib\kerb-simplekdc-1.0.1.jar;C:\Users\abisht\commonlib\slf4j-log4j12-1.7.25.jar;C:\Users\abisht\commonlib\token-provider-1.0.1.jar;C:\Users\abisht\commonlib\commons-compress-1.18.jar;C:\Users\abisht\commonlib\commons-logging-1.1.3.jar;C:\Users\abisht\commonlib\curator-client-2.13.0.jar;C:\Users\abisht\commonlib\curator-recipes-2.13.0.jar;C:\Users\abisht\commonlib\j2objc-annotations-1.1.jar;C:\Users\abisht\commonlib\jackson-databind-2.9.8.jar;C:\Users\abisht\commonlib\jcip-annotations-1.0-1.jar;C:\Users\abisht\commonlib\nimbus-jose-jwt-4.41.1.jar;C:\Users\abisht\commonlib\commons-beanutils-1.9.3.jar;C:\Users\abisht\commonlib\jackson-core-asl-1.9.13.jar;C:\Users\abisht\commonlib\javax.servlet-api-3.1.0.jar;C:\Users\abisht\commonlib\curator-framework-2.13.0.jar;C:\Users\abisht\commonlib\hadoop-annotations-3.2.1.jar;C:\Users\abisht\commonlib\commons-collections-3.2.2.jar;C:\Users\abisht\commonlib\jackson-annotations-2.9.8.jar;C:\Users\abisht\commonlib\jackson-mapper-asl-1.9.13.jar;C:\Users\abisht\commonlib\jetty-io-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\audience-annotations-0.5.0.jar;C:\Users\abisht\commonlib\jetty-xml-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\jetty-http-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\jetty-util-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\commons-configuration2-2.1.1.jar;C:\Users\abisht\commonlib\error_prone_annotations-2.2.0.jar;C:\Users\abisht\commonlib\htrace-core4-4.1.0-incubating.jar;C:\Users\abisht\commonlib\jetty-server-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\jetty-webapp-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\jetty-servlet-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\animal-sniffer-annotations-1.17.jar;C:\Users\abisht\commonlib\jetty-security-9.3.24.v20180605.jar;C:\Users\abisht\commonlib\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-3.2.1.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-nfs-3.2.1.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-rbf-3.2.1.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-3.2.1-tests.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-client-3.2.1.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-httpfs-3.2.1.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-rbf-3.2.1-tests.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-client-3.2.1-tests.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-native-client-3.2.1.jar;C:\Users\abisht\hdfslibs\hadoop-hdfs-native-client-3.2.1-tests.jar;C:\Users\abisht\mapreducelib\hadoop-kms-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-nfs-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-common-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-common-3.2.1-tests.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-examples-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-hs-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-app-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-core-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-common-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-shuffle-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-uploader-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-jobclient-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-hs-plugins-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-nativetask-3.2.1.jar;C:\Users\abisht\mapreducelib\hadoop-mapreduce-client-jobclient-3.2.1-tests.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-api-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-client-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-common-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-registry-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-submarine-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-tests-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-services-api-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-common-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-router-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-services-core-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-web-proxy-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-nodemanager-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-resourcemanager-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-sharedcachemanager-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-applications-distributedshell-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-timeline-pluginstorage-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-server-applicationhistoryservice-3.2.1.jar;C:\Users\abisht\yarnlibs\hadoop-yarn-applications-unmanaged-am-launcher-3.2.1.jar Driver FreeswitchLogs/ LogAnalysis_output/
+2022-05-11 10:11:40,627 WARN  [main] impl.MetricsConfig (MetricsConfig.java:loadFirst(134)) - Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2022-05-11 10:11:40,736 INFO  [main] impl.MetricsSystemImpl (MetricsSystemImpl.java:startTimer(374)) - Scheduled Metric snapshot period at 10 second(s).
+2022-05-11 10:11:40,737 INFO  [main] impl.MetricsSystemImpl (MetricsSystemImpl.java:start(191)) - JobTracker metrics system started
+2022-05-11 10:11:40,822 WARN  [main] mapreduce.JobResourceUploader (JobResourceUploader.java:uploadResourcesInternal(149)) - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2022-05-11 10:11:40,836 WARN  [main] mapreduce.JobResourceUploader (JobResourceUploader.java:uploadJobJar(482)) - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2022-05-11 10:11:40,858 INFO  [main] input.FileInputFormat (FileInputFormat.java:listStatus(292)) - Total input files to process : 1
+2022-05-11 10:11:40,882 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:submitJobInternal(202)) - number of splits:1
+2022-05-11 10:11:41,036 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:printTokens(298)) - Submitting tokens for job: job_local1608640840_0001
+2022-05-11 10:11:41,038 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:printTokens(299)) - Executing with tokens: []
+2022-05-11 10:11:41,185 INFO  [main] mapreduce.Job (Job.java:submit(1574)) - The url to track the job: http://localhost:8080/
+2022-05-11 10:11:41,187 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1619)) - Running job: job_local1608640840_0001
+2022-05-11 10:11:41,188 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(501)) - OutputCommitter set in config null
+2022-05-11 10:11:41,193 INFO  [Thread-3] output.FileOutputCommitter (FileOutputCommitter.java:<init>(141)) - File Output Committer Algorithm version is 2
+2022-05-11 10:11:41,194 INFO  [Thread-3] output.FileOutputCommitter (FileOutputCommitter.java:<init>(156)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2022-05-11 10:11:41,194 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(519)) - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2022-05-11 10:11:41,221 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(478)) - Waiting for map tasks
+2022-05-11 10:11:41,221 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(252)) - Starting task: attempt_local1608640840_0001_m_000000_0
+2022-05-11 10:11:41,237 INFO  [LocalJobRunner Map Task Executor #0] output.FileOutputCommitter (FileOutputCommitter.java:<init>(141)) - File Output Committer Algorithm version is 2
+2022-05-11 10:11:41,237 INFO  [LocalJobRunner Map Task Executor #0] output.FileOutputCommitter (FileOutputCommitter.java:<init>(156)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2022-05-11 10:11:41,244 INFO  [LocalJobRunner Map Task Executor #0] util.ProcfsBasedProcessTree (ProcfsBasedProcessTree.java:isAvailable(178)) - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-05-11 10:11:41,275 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:initialize(626)) -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@31c53846
+2022-05-11 10:11:41,280 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:runNewMapper(768)) - Processing split: file:/C:/Users/abisht/BigData/FreeswitchLog_warning_severity_mapreduce/FreeswitchLogs/freeswitch.log:0+12373
+2022-05-11 10:11:41,329 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:setEquator(1219)) - (EQUATOR) 0 kvi 26214396(104857584)
+2022-05-11 10:11:41,330 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(1012)) - mapreduce.task.io.sort.mb: 100
+2022-05-11 10:11:41,330 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(1013)) - soft limit at 83886080
+2022-05-11 10:11:41,330 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(1014)) - bufstart = 0; bufvoid = 104857600
+2022-05-11 10:11:41,330 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(1015)) - kvstart = 26214396; length = 6553600
+2022-05-11 10:11:41,336 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:createSortingCollector(409)) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2022-05-11 10:11:41,354 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(634)) -
+2022-05-11 10:11:41,354 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1476)) - Starting flush of map output
+2022-05-11 10:11:41,354 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1498)) - Spilling map output
+2022-05-11 10:11:41,354 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1499)) - bufstart = 0; bufend = 139; bufvoid = 104857600
+2022-05-11 10:11:41,354 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1501)) - kvstart = 26214396(104857584); kvend = 26214352(104857408); length = 45/6553600
+2022-05-11 10:11:41,374 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:sortAndSpill(1696)) - Finished spill 0
+2022-05-11 10:11:41,387 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:done(1244)) - Task:attempt_local1608640840_0001_m_000000_0 is done. And is in the process of committing
+2022-05-11 10:11:41,390 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(634)) - map
+2022-05-11 10:11:41,390 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:sendDone(1380)) - Task 'attempt_local1608640840_0001_m_000000_0' done.
+2022-05-11 10:11:41,397 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:done(1276)) - Final Counters for attempt_local1608640840_0001_m_000000_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=12594
+		FILE: Number of bytes written=525192
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=149
+		Map output records=12
+		Map output bytes=139
+		Map output materialized bytes=33
+		Input split bytes=165
+		Combine input records=12
+		Combine output records=2
+		Spilled Records=2
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=266338304
+	File Input Format Counters
+		Bytes Read=12373
+2022-05-11 10:11:41,397 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(277)) - Finishing task: attempt_local1608640840_0001_m_000000_0
+2022-05-11 10:11:41,398 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(486)) - map task executor complete.
+2022-05-11 10:11:41,400 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(478)) - Waiting for reduce tasks
+2022-05-11 10:11:41,400 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(330)) - Starting task: attempt_local1608640840_0001_r_000000_0
+2022-05-11 10:11:41,407 INFO  [pool-4-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(141)) - File Output Committer Algorithm version is 2
+2022-05-11 10:11:41,407 INFO  [pool-4-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(156)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2022-05-11 10:11:41,408 INFO  [pool-4-thread-1] util.ProcfsBasedProcessTree (ProcfsBasedProcessTree.java:isAvailable(178)) - ProcfsBasedProcessTree currently is supported only on Linux.
+2022-05-11 10:11:41,446 INFO  [pool-4-thread-1] mapred.Task (Task.java:initialize(626)) -  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@578fae1f
+2022-05-11 10:11:41,450 INFO  [pool-4-thread-1] mapred.ReduceTask (ReduceTask.java:run(363)) - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@715002a0
+2022-05-11 10:11:41,451 WARN  [pool-4-thread-1] impl.MetricsSystemImpl (MetricsSystemImpl.java:init(151)) - JobTracker metrics system already initialized!
+2022-05-11 10:11:41,468 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(208)) - MergerManager: memoryLimit=2972712960, maxSingleShuffleLimit=743178240, mergeThreshold=1961990656, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2022-05-11 10:11:41,470 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(61)) - attempt_local1608640840_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2022-05-11 10:11:41,514 INFO  [localfetcher#1] reduce.LocalFetcher (LocalFetcher.java:copyMapOutput(145)) - localfetcher#1 about to shuffle output of map attempt_local1608640840_0001_m_000000_0 decomp: 29 len: 33 to MEMORY
+2022-05-11 10:11:41,519 INFO  [localfetcher#1] reduce.InMemoryMapOutput (InMemoryMapOutput.java:doShuffle(94)) - Read 29 bytes from map-output for attempt_local1608640840_0001_m_000000_0
+2022-05-11 10:11:41,521 INFO  [localfetcher#1] reduce.MergeManagerImpl (MergeManagerImpl.java:closeInMemoryFile(323)) - closeInMemoryFile -> map-output of size: 29, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->29
+2022-05-11 10:11:41,523 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(76)) - EventFetcher is interrupted.. Returning
+2022-05-11 10:11:41,524 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(634)) - 1 / 1 copied.
+2022-05-11 10:11:41,524 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(695)) - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2022-05-11 10:11:41,533 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(606)) - Merging 1 sorted segments
+2022-05-11 10:11:41,534 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 20 bytes
+2022-05-11 10:11:41,535 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(762)) - Merged 1 segments, 29 bytes to disk to satisfy reduce memory limit
+2022-05-11 10:11:41,536 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(792)) - Merging 1 files, 33 bytes from disk
+2022-05-11 10:11:41,537 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(807)) - Merging 0 segments, 0 bytes from memory into reduce
+2022-05-11 10:11:41,537 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(606)) - Merging 1 sorted segments
+2022-05-11 10:11:41,539 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 20 bytes
+2022-05-11 10:11:41,540 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(634)) - 1 / 1 copied.
+2022-05-11 10:11:41,544 INFO  [pool-4-thread-1] Configuration.deprecation (Configuration.java:logDeprecation(1395)) - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2022-05-11 10:11:41,545 INFO  [pool-4-thread-1] mapred.Task (Task.java:done(1244)) - Task:attempt_local1608640840_0001_r_000000_0 is done. And is in the process of committing
+2022-05-11 10:11:41,547 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(634)) - 1 / 1 copied.
+2022-05-11 10:11:41,547 INFO  [pool-4-thread-1] mapred.Task (Task.java:commit(1421)) - Task attempt_local1608640840_0001_r_000000_0 is allowed to commit now
+2022-05-11 10:11:41,551 INFO  [pool-4-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(606)) - Saved output of task 'attempt_local1608640840_0001_r_000000_0' to file:/C:/Users/abisht/BigData/FreeswitchLog_warning_severity_mapreduce/LogAnalysis_output
+2022-05-11 10:11:41,552 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(634)) - reduce > reduce
+2022-05-11 10:11:41,552 INFO  [pool-4-thread-1] mapred.Task (Task.java:sendDone(1380)) - Task 'attempt_local1608640840_0001_r_000000_0' done.
+2022-05-11 10:11:41,553 INFO  [pool-4-thread-1] mapred.Task (Task.java:done(1276)) - Final Counters for attempt_local1608640840_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=12692
+		FILE: Number of bytes written=525256
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=33
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=266338304
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters
+		Bytes Written=31
+2022-05-11 10:11:41,553 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(353)) - Finishing task: attempt_local1608640840_0001_r_000000_0
+2022-05-11 10:11:41,553 INFO  [Thread-3] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(486)) - reduce task executor complete.
+2022-05-11 10:11:42,205 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1640)) - Job job_local1608640840_0001 running in uber mode : false
+2022-05-11 10:11:42,206 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1647)) -  map 100% reduce 100%
+2022-05-11 10:11:42,207 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1658)) - Job job_local1608640840_0001 completed successfully
+2022-05-11 10:11:42,212 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1665)) - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=25286
+		FILE: Number of bytes written=1050448
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=149
+		Map output records=12
+		Map output bytes=139
+		Map output materialized bytes=33
+		Input split bytes=165
+		Combine input records=12
+		Combine output records=2
+		Reduce input groups=2
+		Reduce shuffle bytes=33
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=4
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=532676608
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters
+		Bytes Read=12373
+	File Output Format Counters
+		Bytes Written=31
+
+Process finished with exit code 0

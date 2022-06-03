@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="hdfslibs">
+    <CLASSES>
+      <root url="file://$USER_HOME$/hdfslibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/hdfslibs/jdiff" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/hdfslibs" recursive="false" />
+  </library>
+</component>

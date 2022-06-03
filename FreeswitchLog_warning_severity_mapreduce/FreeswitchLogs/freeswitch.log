@@ -1,0 +1,149 @@
+recv 570 bytes from udp/[37.187.153.237]:6275 at 03:13:52.345094:
+------------------------------------------------------------------------
+REGISTER sip:117.201.85.75 SIP/2.0
+Via: SIP/2.0/UDP 37.187.153.237:6275;branch=z9hG4bK-1069005134;rport
+Content-Length: 0
+From: "3032" <sip:3032@117.201.85.75>;tag=333033323a7361696c6f723130300131323838383335393232
+Accept: application/sdp
+User-Agent: PBX
+To: "3032" <sip:3032@117.201.85.75>
+Contact: sip:123@1.1.1.1
+CSeq: 2 REGISTER
+Call-ID: 274073494
+Max-Forwards: 70
+Authorization: Digest username="3032",realm="117.201.85.75",nonce="2330f58e-ae88-11ea-a2af-153da8caf925",uri="sip:117.201.85.75",response="1f40afe92de386d64d423df171725eae",algorithm=MD5
+
+2020-06-14 05:10:44.182649 [WARNING] sofia_reg.c:2930 Can't find user [10116@192.168.1.111] from 156.96.114.102
+You must define a domain called '192.168.1.111' in your directory and add a user with the id="10116" attribute
+and you must configure your device to use the proper domain in its authentication credentials.
+2020-06-14 05:10:44.182649 [DEBUG] sofia_reg.c:1734 Send forbidden for [10116@117.201.85.75]
+2020-06-14 05:10:44.182649 [WARNING] sofia_reg.c:1739 SIP auth failure (REGISTER) on sofia profile 'internal' for [10116@117.201.85.75] from ip 156.96.114.102
+send 531 bytes to udp/[156.96.114.102]:5415 at 03:13:52.345968:
+------------------------------------------------------------------------
+SIP/2.0 403 Forbidden
+Via: SIP/2.0/UDP 156.96.114.102:5415;branch=z9hG4bK-199915779;rport=5415
+From: "10116" <sip:10116@117.201.85.75>;tag=31303131363a31303131360133343935343634313531
+To: "10116" <sip:10116@117.201.85.75>;tag=D7S2U56aSH4Dg
+Call-ID: 4087783049
+CSeq: 2 REGISTER
+User-Agent: FreeSWITCH-mod_sofia/1.10.4-dev+git~20200518T172205Z~91f54340ed~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Content-Length: 0
+
+2020-06-14 05:10:44.182649 [WARNING] sofia_reg.c:2930 Can't find user [3032@192.168.1.111] from 37.187.153.237
+You must define a domain called '192.168.1.111' in your directory and add a user with the id="3032" attribute
+and you must configure your device to use the proper domain in its authentication credentials.
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_ivr_originate.c:2242 Parsing global variables
+2020-06-14 05:10:44.182649 [DEBUG] sofia_reg.c:1734 Send forbidden for [3032@117.201.85.75]
+2020-06-14 05:10:44.182649 [WARNING] sofia_reg.c:1739 SIP auth failure (REGISTER) on sofia profile 'internal' for [3032@117.201.85.75] from ip 37.187.153.237
+send 533 bytes to udp/[37.187.153.237]:6275 at 03:13:52.346884:
+------------------------------------------------------------------------
+SIP/2.0 403 Forbidden
+Via: SIP/2.0/UDP 37.187.153.237:6275;branch=z9hG4bK-1069005134;rport=6275
+From: "3032" <sip:3032@117.201.85.75>;tag=333033323a7361696c6f723130300131323838383335393232
+To: "3032" <sip:3032@117.201.85.75>;tag=egKUX0Qeptt0B
+Call-ID: 274073494
+CSeq: 2 REGISTER
+User-Agent: FreeSWITCH-mod_sofia/1.10.4-dev+git~20200518T172205Z~91f54340ed~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Content-Length: 0
+
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [WARNING] mod_sofia.c:4922 Cannot locate registered user 1009@
+238d518a-ae88-11ea-a2ca-153da8caf925 2020-06-14 05:10:44.182649 [NOTICE] mod_sofia.c:5189 Close Channel N/A [CS_NEW]
+238d518a-ae88-11ea-a2ca-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:739 () Running State Change CS_DESTROY (Cur 13 Tot 37525)
+238d518a-ae88-11ea-a2ca-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:749 (N/A) State DESTROY
+238d518a-ae88-11ea-a2ca-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] mod_sofia.c:364 N/A SOFIA DESTROY
+238d518a-ae88-11ea-a2ca-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:749 (N/A) State DESTROY going to sleep
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [NOTICE] switch_ivr_originate.c:2999 Cannot create outgoing channel of type [sofia] cause: [USER_NOT_REGISTERED]
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_ivr_originate.c:3995 Originate Resulted in Error Cause: 606 [USER_NOT_REGISTERED]
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_channel.c:2130 (sofia/internal/100@117.201.85.75) Callstate Change RING_WAIT -> ACTIVE
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [INFO] mod_dptools.c:3631 Originate Failed.  Cause: USER_NOT_REGISTERED
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [NOTICE] switch_channel.c:4941 Hangup sofia/internal/100@117.201.85.75 [CS_EXECUTE] [USER_NOT_REGISTERED]
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_session.c:2905 sofia/internal/100@117.201.85.75 skip receive message [APPLICATION_EXEC_COMPLETE] (channel is hungup already)
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:651 (sofia/internal/100@117.201.85.75) State EXECUTE going to sleep
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:585 (sofia/internal/100@117.201.85.75) Running State Change CS_HANGUP (Cur 13 Tot 37525)
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:848 (sofia/internal/100@117.201.85.75) Callstate Change ACTIVE -> HANGUP
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] switch_core_state_machine.c:850 (sofia/internal/100@117.201.85.75) State HANGUP
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.182649 [DEBUG] mod_sofia.c:453 Channel sofia/internal/100@117.201.85.75 hanging up, cause: USER_NOT_REGISTERED
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] mod_sofia.c:507 Sending BYE to sofia/internal/100@117.201.85.75
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:60 sofia/internal/100@117.201.85.75 Standard HANGUP, cause: USER_NOT_REGISTERED
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:850 (sofia/internal/100@117.201.85.75) State HANGUP going to sleep
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:620 (sofia/internal/100@117.201.85.75) State Change CS_HANGUP -> CS_REPORTING
+send 590 bytes to udp/[46.105.112.86]:62701 at 03:13:52.352653:
+------------------------------------------------------------------------
+BYE sip:100@46.105.112.86:62701 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.109;rport;branch=z9hG4bKra4SS1rQX7tar
+Max-Forwards: 70
+From: <sip:999999972598412939@117.201.85.75>;tag=pN2N1KDrmajKg
+To: <sip:100@117.201.85.75>;tag=241980294
+Call-ID: 433145421-11575203-1198804065
+CSeq: 21531724 BYE
+User-Agent: FreeSWITCH-mod_sofia/1.10.4-dev+git~20200518T172205Z~91f54340ed~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Reason: SIP;cause=606;text="USER_NOT_REGISTERED"
+Content-Length: 0
+
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:585 (sofia/internal/100@117.201.85.75) Running State Change CS_REPORTING (Cur 13 Tot 37525)
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:936 (sofia/internal/100@117.201.85.75) State REPORTING
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:174 sofia/internal/100@117.201.85.75 Standard REPORTING, cause: USER_NOT_REGISTERED
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:936 (sofia/internal/100@117.201.85.75) State REPORTING going to sleep
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:611 (sofia/internal/100@117.201.85.75) State Change CS_REPORTING -> CS_DESTROY
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_session.c:1726 Session 37524 (sofia/internal/100@117.201.85.75) Locked, Waiting on external entities
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [NOTICE] switch_core_session.c:1744 Session 37524 (sofia/internal/100@117.201.85.75) Ended
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [NOTICE] switch_core_session.c:1748 Close Channel sofia/internal/100@117.201.85.75 [CS_DESTROY]
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:739 (sofia/internal/100@117.201.85.75) Running State Change CS_DESTROY (Cur 12 Tot 37525)
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:749 (sofia/internal/100@117.201.85.75) State DESTROY
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] mod_sofia.c:364 sofia/internal/100@117.201.85.75 SOFIA DESTROY
+2020-06-14 05:10:44.202617 [DEBUG] switch_nat.c:568 unmapped public port 31512 protocol UDP to localport 31512
+recv 564 bytes from udp/[37.187.153.237]:6275 at 03:13:52.361657:
+------------------------------------------------------------------------
+REGISTER sip:117.201.85.75 SIP/2.0
+Via: SIP/2.0/UDP 37.187.153.237:6275;branch=z9hG4bK-372329847;rport
+Content-Length: 0
+From: "3032" <sip:3032@117.201.85.75>;tag=333033323a7a65703130300133383238333432313332
+Accept: application/sdp
+User-Agent: PBX
+To: "3032" <sip:3032@117.201.85.75>
+Contact: sip:123@1.1.1.1
+CSeq: 2 REGISTER
+Call-ID: 3890985470
+Max-Forwards: 70
+Authorization: Digest username="3032",realm="117.201.85.75",nonce="233039be-ae88-11ea-a2ae-153da8caf925",uri="sip:117.201.85.75",response="572c7938a5835313d956e6c64a609827",algorithm=MD5
+
+2020-06-14 05:10:44.202617 [WARNING] sofia_reg.c:2930 Can't find user [3032@192.168.1.111] from 37.187.153.237
+You must define a domain called '192.168.1.111' in your directory and add a user with the id="3032" attribute
+and you must configure your device to use the proper domain in its authentication credentials.
+2020-06-14 05:10:44.202617 [DEBUG] sofia_reg.c:1734 Send forbidden for [3032@117.201.85.75]
+2020-06-14 05:10:44.202617 [WARNING] sofia_reg.c:1739 SIP auth failure (REGISTER) on sofia profile 'internal' for [3032@117.201.85.75] from ip 37.187.153.237
+send 527 bytes to udp/[37.187.153.237]:6275 at 03:13:52.363078:
+------------------------------------------------------------------------
+SIP/2.0 403 Forbidden
+Via: SIP/2.0/UDP 37.187.153.237:6275;branch=z9hG4bK-372329847;rport=6275
+From: "3032" <sip:3032@117.201.85.75>;tag=333033323a7a65703130300133383238333432313332
+To: "3032" <sip:3032@117.201.85.75>;tag=FScmZU8HK3gKQ
+Call-ID: 3890985470
+CSeq: 2 REGISTER
+User-Agent: FreeSWITCH-mod_sofia/1.10.4-dev+git~20200518T172205Z~91f54340ed~64bit
+Allow: INVITE, ACK, BYE, CANCEL, OPTIONS, MESSAGE, INFO, UPDATE, REGISTER, REFER, NOTIFY, PUBLISH, SUBSCRIBE
+Supported: timer, path, replaces
+Content-Length: 0
+
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:181 sofia/internal/100@117.201.85.75 Standard DESTROY
+22eccf30-ae88-11ea-a298-153da8caf925 2020-06-14 05:10:44.202617 [DEBUG] switch_core_state_machine.c:749 (sofia/internal/100@117.201.85.75) State DESTROY going to sleep
+recv 611 bytes from udp/[37.187.153.237]:6275 at 03:13:52.367981:
+------------------------------------------------------------------------
+REGISTER sip:117.201.85.75 SIP/2.0
+Via: SIP/2.0/UDP 37.187.153.237:6275;branch=z9hG4bK-3927282742;rport
+Content-Length: 0
+From: "3032" <sip:3032@117.201.85.75>;tag=333033323a34363732393332303935323532653362386363633662626232353735363432650135303731363238
+Accept: application/sdp
+User-Agent: PBX
+To: "3032" <sip:3032@117.201.85.75>
+Contact: sip:123@1.1.1.1
+CSeq: 2 REGISTER
+Call-ID: 2009130182
+Max-Forwards: 70
+Authorization: Digest username="3032",realm="117.201.85.75",nonce="232dc1f2-ae88-11ea-a2ac-153da8caf925",uri="sip:117.201.85.75",response="211d0ada01901dd6248c3146a4a256b5",algorithm=MD5

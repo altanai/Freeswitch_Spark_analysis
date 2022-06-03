@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="yarnlibs">
+    <CLASSES>
+      <root url="file://$USER_HOME$/yarnlibs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/yarnlibs" recursive="false" />
+  </library>
+</component>

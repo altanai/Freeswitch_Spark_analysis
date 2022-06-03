@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mapreducelib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/mapreducelib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/mapreducelib" recursive="false" />
+  </library>
+</component>
